@@ -1,5 +1,22 @@
 .button {
-    background-color: black;
-    color: white;
+    background-color: rgb(144, 202, 170);
+    color: black;
     font-size: 1.4em;
+    border: 1px solid black;
+}
+
+.button:active {
+    background-color: rgb(182, 206, 193);
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: orange;
 }
