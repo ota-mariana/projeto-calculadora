@@ -4,7 +4,7 @@ import './Display.css';
 class Display extends React.Component {
   render() {
     return (
-        <p>{this.props.value}</p>
+        <p className="display">{this.props.value}</p>
     )
   }
 }
